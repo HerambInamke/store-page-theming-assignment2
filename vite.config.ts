@@ -14,11 +14,10 @@ export default defineConfig({
     },
     server: {
         host: '0.0.0.0',
-        
+        port: 5173,
         // proxy: {
         //     '/api': {
-        //         target: 'https://api-dev.gogetwell.ai', // TODO @emondaslearner please add condition here based on Production and development
-        //         // target: 'api-dev.gogetwell.ai',
+        //         target: 'https://api-dev.gogetwell.ai',
         //         changeOrigin: true,
         //         secure: false,
         //         configure: (proxy, _options) => {
@@ -67,7 +66,6 @@ export default defineConfig({
         //         },
         //     },
         // },
-    port: 5173
     },
     build: {
         outDir: 'build',

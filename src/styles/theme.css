@@ -1,0 +1,30 @@
+@layer base {
+  :root {
+    --color-primary: #3B82F6;
+    --color-secondary: #6B7280;
+    --color-background: #FFFFFF;
+    --color-text: #1F2937;
+    --color-border: #E5E7EB;
+  }
+
+  .dark {
+    --color-primary: #60A5FA;
+    --color-secondary: #9CA3AF;
+    --color-background: #111827;
+    --color-text: #F3F4F6;
+    --color-border: #374151;
+  }
+
+  .custom {
+    --color-primary: #8B5CF6;
+    --color-secondary: #A78BFA;
+    --color-background: #F5F3FF;
+    --color-text: #4C1D95;
+    --color-border: #C4B5FD;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+} 

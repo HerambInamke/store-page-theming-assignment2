@@ -1,0 +1,23 @@
+:root {
+    /* Default theme variables (General Practice) */
+    --medical-primary: #2563eb;
+    --medical-secondary: #64748b;
+    --medical-accent: #0ea5e9;
+    --medical-background-main: #ffffff;
+    --medical-background-paper: #f8fafc;
+    --medical-text-primary: #1e293b;
+    --medical-text-secondary: #64748b;
+    --medical-border: #e2e8f0;
+    --medical-success: #22c55e;
+    --medical-warning: #f59e0b;
+    --medical-error: #ef4444;
+    --medical-info: #3b82f6;
+    --medical-border-radius: 0.375rem;
+    --medical-spacing-unit: 4px;
+    --medical-font-primary: 'Inter';
+}
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); 

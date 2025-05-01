@@ -1,1 +1,6 @@
 @import "./assets/styles/app.css";
+@import './styles/medical-theme.css';
+@import './styles/theme.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
